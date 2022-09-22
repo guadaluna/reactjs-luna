@@ -2,7 +2,11 @@ body{
     margin: 0;
 }
 
-header{
+.carrito{
+    margin-left: 100px;
+}
+
+.barranav{
     display: flex;
     height: 80px;
     justify-content: space-between;

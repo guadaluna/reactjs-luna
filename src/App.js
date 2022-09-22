@@ -1,29 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar';
+import ItemListContainer from './components/ItemListContainer';
 
 
 function App() {
   return (
     <div className="App">
       <NavBar />
-      <header className="App-header">
-      </header>
+      <ItemListContainer />
     </div>
   );
 }
 
-function Footer() {
-  return (
-    <div className="footer">
-      <h2><strong>Artemisa</strong></h2>
-      <ul>
-        <li>Home</li>
-        <li>Productos</li>
-        <li>Contacto</li>
-      </ul>
-    </div>
-  );
-}
 
 export default App;
