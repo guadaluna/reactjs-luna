@@ -2,7 +2,7 @@ import React from "react";
 
 function ItemListContainer(props) {
     return (
-    <h1>Benvenidos a Artemisa</h1>
+    <h1>Bienvenidos a Artemisa</h1>
     );
 }
 
